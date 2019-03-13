@@ -12,4 +12,4 @@ datetime <- strptime(paste(subSetdf1$Date, subSetdf1$Time, sep=" "), "%d/%m/%Y %
 globalActivePower <- as.numeric(subSetdf1$Global_active_power)
 png("plot2.png", width=480, height=480)
 plot(datetime, globalActivePower, type="l", xlab="", ylab="Global Active Power (kilowatts)")
-#dev.off()
+dev.off()
