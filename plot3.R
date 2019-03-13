@@ -20,4 +20,4 @@ plot3 <- plot(datetime, energySubMetering1, type="l", xlab="", ylab="energy SubM
 lines(datetime, energySubMetering2, type="l", col="red")
 lines(datetime, energySubMetering3, type="l", col="blue")
 legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, lwd = 3, col= c("black", "red", "blue"))
-#dev.off()
+dev.off()
